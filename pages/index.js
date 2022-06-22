@@ -1,10 +1,10 @@
-import { Header } from "../components";
+import { Header, About } from "../components";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Hola mundo</h1>
+    <div className="w-full">
       <Header />
+      <About />
     </div>
   );
 };
