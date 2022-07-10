@@ -1,35 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h2> Hi, I'm Lucas and this is my portfolio! <img src="https://media.giphy.com/media/nEZQWs1o1Zh9C/giphy.gif" width="50"></h2>
+<p><em><a>This portfolio is made with next.js,tailwind and react </a><img src="https://media.giphy.com/media/HRjhC00AXR3H2/giphy.gif" width="30"></br>React.js Developer looking for my first experience and Ruby on rails student at <a href="https://www.thoughtworks.com">brightcoders</a><img src="https://media.giphy.com/media/OzhU5Yn4bTemY/giphy.gif" width="30"> 
+</em></p>
 
-## Getting Started
+[![Linkedin: lucasandres-videla](https://img.shields.io/badge/-lucasandresvidela-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/lucasandres-videla/)](https://www.linkedin.com/in/lucasandres-videla/)
+[![GitHub lucasvidela94](https://img.shields.io/github/followers/lucasvidela94?label=follow&style=social)](https://github.com/lucasvidela94)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
+### A little extra about me   
+
+```javascript
+const lucas = {
+  code: [Javascript, Typescript, HTML, CSS, Ruby, Java],
+  tools: [React, Vitejs, Nextjs, Styled-Components , Ruby on rails , Jest,],
+  techCommunities: {
+                        enthusiast: "Goncy",
+                        student: "brigthcoders",
+                        mentor: "Not yet but i will get there"
+                      },
+  challenge: ["I am currently on a big project on rails hoping to deploy it as soon as possible",
+             "Trying to make a cool portfolio"]
+            
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<em> If you are reading this and you think i could improve something on my code please i encourage you to tell me,my dms are open,grab a cup of coffe and hit me up :)</em>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# portfolio-lucas
+---
