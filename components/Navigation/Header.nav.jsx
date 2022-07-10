@@ -21,6 +21,7 @@ const Header = () => {
           <TextBox text="Home" url="#home" />
           <TextBox text="Acerca de mi " url="#aboutme" />
           <TextBox text="Proyectos" url="#projects" />
+          <Link href="https://www.google.com"> </Link>
           <TextBox text="Contacto" url="#contact" />
           <Link href="https://www.google.com">
             <a target="_blank">
