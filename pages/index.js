@@ -1,4 +1,6 @@
-import { Header, About, Projects, Footer, Skills } from "../components";
+import { Header, About, Projects, Footer, Skills, ButtonToTop} from "../components";
+
+
 
 const Home = () => {
   return (
@@ -8,7 +10,8 @@ const Home = () => {
       <Projects />
       <Skills />
       <Footer />
-    </div>
+      <ButtonToTop />
+     </div>
   );
 };
 
