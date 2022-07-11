@@ -13,7 +13,7 @@ const About = () => {
       />
       <h1 className="text-3xl">Lucas Videla</h1>
       <p className="text-gray-500 pb-4">Frontend developer</p>
-      <p className="text-gray-700 mb-6">
+      <p className="text-gray-700 mb-6 max-width-md ">
         Hello world, Im Lucas.Im a self taught developer,yeah like i love to
         learn new things and understand how the world works,really stubborn and
         a learner for life. <br />
