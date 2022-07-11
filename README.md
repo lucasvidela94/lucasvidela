@@ -11,7 +11,7 @@
 ```javascript
 const lucas = {
   code: [Javascript, Typescript, HTML, CSS, Ruby, Java],
-  tools: [React, Vitejs, Nextjs, Styled-Components , Ruby on rails , Jest,],
+  tools: [React, Vitejs, Nextjs, Styled-Components , Ruby-on-rails , Jest,],
   techCommunities: {
                         enthusiast: "Goncy",
                         student: "brigthcoders",
