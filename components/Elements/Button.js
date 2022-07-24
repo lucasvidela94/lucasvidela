@@ -26,14 +26,13 @@ const Button = ()=> {
         }
     }
         function goToTop() {
-        console.log("Si estoy funcionando");
         window.scrollTo({ top: 0, behavior: 'smooth' });
             }
 
     return(
         <>
-        <button id="to-top-button" onclick={goToTop} title="Go To Top"
-        className="hidden fixed z-90 bottom-8 right-8 border-0 w-16 h-16 rounded-full drop-shadow-md bg-indigo-500 text-white text-3xl font-bold">&uarr;</button>
+        <button id="to-top-button"  title="Go To Top"
+        className="hidden fixed z-90 bottom-8 right-8 border-0 w-16 h-16 rounded-full drop-shadow-md bg-zinc-400 text-white text-3xl font-bold">&uarr;</button>
         </>
         )
 }

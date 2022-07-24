@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <div className="w-3/4 lg:w-1/2 mx-auto rounded-md bg-gray-200 shadow-lg m-20 p-10 text-center">
+    <div className="w-3/4 lg:w-1/2 mx-auto rounded-md bg-gray-200 shadow-lg m-20 p-7 text-center">
       <Image
         src="/assets/avatar.png"
         width="112"
@@ -30,6 +30,18 @@ const About = () => {
         <div className="px-4 py-2 bg-gray-800 text-gray-100 rounded-md mr-4 hover:bg-gray-600">
           <a href="">Instagram</a>
         </div>
+      </div>
+      <div className="pt-4 pr-4">
+        <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+          <svg
+            className="fill-current w-4 h-4 mr-2"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+          >
+            <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+          </svg>
+          <span>CV!</span>
+        </button>
       </div>
     </div>
   );

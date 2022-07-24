@@ -5,28 +5,28 @@ const Projects = () => {
   return (
     <div className="flex flex-wrap justify-center -mx-1 lg:-mx-4">
       <Card
-        texto="Info del proyecto1"
-        imagen="https://i.pinimg.com/564x/19/e6/d3/19e6d346aecc9d2a7f69f2ab90424c9a.jpg"
+        texto="Amazon Spain Mockup created in React.js and deployed on firebase"
+        imagen="https://media.giphy.com/media/OzsCCqkyMUpr68gSKa/giphy.gif"
+        github=""
+        deploy=""
       />
       <Card
-        texto="Info del proyecto1"
-        imagen="https://i.pinimg.com/564x/19/e6/d3/19e6d346aecc9d2a7f69f2ab90424c9a.jpg"
+        texto="Administrative tool for time management made on Ruby on Rails"
+        imagen="https://media.giphy.com/media/czOpg0e3S2UoB6bArs/giphy.gif"
+        github="https://github.com/BC-MAY-21-ROR/kata-06-reloj-checador-m22-krc-t1-reilero-02"
+        deploy="https://hidden-castle-14008.herokuapp.com/"
       />
       <Card
-        texto="Info del proyecto1"
-        imagen="https://i.pinimg.com/564x/19/e6/d3/19e6d346aecc9d2a7f69f2ab90424c9a.jpg"
+        texto="Web application for small business to keep their budgets"
+        imagen="https://media.giphy.com/media/7pjkNjEgl11sYfhsEX/giphy.gif"
+        github=""
+        deploy=""
       />
       <Card
-        texto="Info del proyecto1"
-        imagen="https://i.pinimg.com/564x/19/e6/d3/19e6d346aecc9d2a7f69f2ab90424c9a.jpg"
-      />
-      <Card
-        texto="Info del proyecto1"
-        imagen="https://i.pinimg.com/564x/19/e6/d3/19e6d346aecc9d2a7f69f2ab90424c9a.jpg"
-      />
-      <Card
-        texto="Info del proyecto1"
-        imagen="https://i.pinimg.com/564x/19/e6/d3/19e6d346aecc9d2a7f69f2ab90424c9a.jpg"
+        texto="Portfolio web made on NextJS and Tailwind"
+        imagen="https://i.postimg.cc/N0FtL0XX/portfolio.png"
+        github=""
+        deploy=""
       />
     </div>
   );
