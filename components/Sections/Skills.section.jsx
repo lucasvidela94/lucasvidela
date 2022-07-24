@@ -15,61 +15,86 @@ const SKills = () => {
       <div className="flex justify-evenly p-14 flex-wrap ">
         <div className="flex justify-center items-center">
           <div className="p-4 max-w-sm flex flex-col bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-stone-100 dark:border-gray-700 dark:hover:bg-stone-300 items-center">
-            <Image src="/svg/git.svg" width="40" height="40" />
+            <Image src="/svg/git.svg" width="40" height="40" alt="git" />
             <p className="">Git</p>
           </div>
         </div>
         <div className="flex justify-center">
           <div className="p-4 max-w-sm flex flex-col items-center bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-stone-100 dark:border-gray-700 dark:hover:bg-stone-300">
-            <Image src="/svg/javascript.svg" width="40" height="40" />
+            <Image
+              src="/svg/javascript.svg"
+              width="40"
+              height="40"
+              alt="javascript"
+            />
             <p>JavaScript</p>
           </div>
         </div>
         <div className="flex  justify-center">
           <div className="p-4 max-w-sm flex flex-col items-center bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-stone-100 dark:border-gray-700 dark:hover:bg-stone-300">
-            <Image src="/svg/typescript.svg" width="40" height="40" />
+            <Image
+              src="/svg/typescript.svg"
+              width="40"
+              height="40"
+              alt="typescript"
+            />
             <p>Typescript</p>
           </div>
         </div>
         <div className="flex justify-center">
           <div className="p-4 max-w-sm flex flex-col items-center bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-stone-100 dark:border-gray-700 dark:hover:bg-stone-300">
-            <Image src="/svg/react.svg" width="40" height="40" />
+            <Image src="/svg/react.svg" width="40" height="40" alt="react" />
             <p>React.js</p>
           </div>
         </div>
         <div className="flex justify-center">
           <div className="p-4 max-w-sm flex flex-col items-center bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-stone-100 dark:border-gray-700 dark:hover:bg-stone-300">
-            <Image src="/svg/ruby.svg" width="40" height="40" />
+            <Image src="/svg/ruby.svg" width="40" height="40" alt="ruby" />
             <p>Ruby</p>
           </div>
         </div>
         <div className="flex justify-center">
           <div className="p-4 max-w-sm  flex flex-col items-center bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-stone-100 dark:border-gray-700 dark:hover:bg-stone-300">
-            <Image src="/svg/ror.svg" width="40" height="40" />
+            <Image
+              src="/svg/ror.svg"
+              width="40"
+              height="40"
+              alt="ruby on rails"
+            />
             <p>Rails</p>
           </div>
         </div>
         <div className="flex justify-center">
           <div className="p-4 max-w-sm flex flex-col items-center bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-stone-100 dark:border-gray-700 dark:hover:bg-stone-300">
-            <Image src="/svg/html.svg" width="40" height="40" />
+            <Image src="/svg/html.svg" width="40" height="40" alt="html" />
             <p>HTML5</p>
           </div>
         </div>
         <div className="flex justify-center">
           <div className="p-4 max-w-sm flex flex-col items-center bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-stone-100 dark:border-gray-700 dark:hover:bg-stone-300">
-            <Image src="/svg/css.svg" width="40" height="40" />
+            <Image src="/svg/css.svg" width="40" height="40" alt="css" />
             <p>CSS</p>
           </div>
         </div>
         <div className="flex justify-center">
           <div className="p-4 max-w-sm flex flex-col items-center bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-stone-100 dark:border-gray-700 dark:hover:bg-stone-300">
-            <Image src="/svg/bootstrap.svg" width="40" height="35" />
+            <Image
+              src="/svg/bootstrap.svg"
+              width="40"
+              height="35"
+              alt="bootstrap"
+            />
             <p>Bootstrap</p>
           </div>
         </div>
         <div className="flex justify-center">
           <div className="p-4 max-w-sm flex flex-col items-center bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-stone-100 dark:border-gray-700 dark:hover:bg-stone-300">
-            <Image src="/svg/tailwind.svg" width="40" height="40" />
+            <Image
+              src="/svg/tailwind.svg"
+              width="40"
+              height="40"
+              alt="tailwind"
+            />
             <p>Tailwind</p>
           </div>
         </div>
