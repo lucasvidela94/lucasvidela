@@ -1,11 +1,13 @@
 const Footer = () => {
   return (
     <>
-      <footer className="p-4 rounded-lg  md:flex md:items-center md:justify-between md:p-6 ">
-        <span className="text-sm text-white sm:text-center dark:text-gray-400">
-          Made with ❤ by : Lucas
+      <footer className="p-4 rounded-lg flex flex-row sm:flex sm:flex md:flex md:items-center md:justify-between md:p-6 ">
+        <span className="text-sm font-semibold ml-3 mt-3 flex justify-center text-white sm:text-center dark:text-gray-400">
+          Made with ❤ by :
+          <br />
+          Lucas
         </span>
-        <ul className="flex flex-wrap items-center mt-3 pr-20 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
+        <ul className="flex flex-row items-center mt-3 pl-12 pr-2 text-sm text-gray-500 dark:text-gray-400 sm:mt-0">
           <li>
             <a
               href="https://www.instagram.com/lucasvidela__"

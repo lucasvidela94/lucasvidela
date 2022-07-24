@@ -19,10 +19,10 @@ const Header = () => {
       <nav className=" border-gray-400 px-2 py-2.5 ">
         <div className="hidden container lg:flex flex-wrap justify-between items-center mx-auto">
           <TextBox text="Home" url="#home" />
-          <TextBox text="Acerca de mi " url="#aboutme" />
-          <TextBox text="Proyectos" url="#projects" />
+          <TextBox text="About me" url="#about_me" />
+          <TextBox text="Projects" url="#projects" />
           <Link href="https://www.google.com"> </Link>
-          <TextBox text="Contacto" url="#contact" />
+          <TextBox text="Skills" url="#skills" />
           <Link href="https://www.google.com">
             <a target="_blank">
               <GitHubIcon className="fill-white" />

@@ -32,7 +32,7 @@ const Button = ()=> {
     return(
         <>
         <button id="to-top-button"  title="Go To Top"
-        className="hidden fixed z-90 bottom-8 right-8 border-0 w-16 h-16 rounded-full drop-shadow-md bg-zinc-400 text-white text-3xl font-bold">&uarr;</button>
+        className="hidden fixed z-90 bottom-12 mb-14 right-8 border-0 w-16 h-16 rounded-full drop-shadow-md bg-zinc-400 text-white text-3xl font-bold">&uarr;</button>
         </>
         )
 }

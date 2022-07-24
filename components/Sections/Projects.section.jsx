@@ -3,7 +3,7 @@ import Card from "../Elements/Card";
 
 const Projects = () => {
   return (
-    <div className="flex flex-wrap justify-center -mx-1 lg:-mx-4">
+    <div className="flex flex-wrap justify-center -mx-1 lg:-mx-4" id="projects">
       <Card
         texto="Amazon Spain Mockup created in React.js and deployed on firebase"
         imagen="https://media.giphy.com/media/OzsCCqkyMUpr68gSKa/giphy.gif"
