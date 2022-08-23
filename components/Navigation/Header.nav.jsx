@@ -37,7 +37,7 @@ const Header = () => {
             height={25}
             className="invert"
           />
-          <GitHubIcon className="fill-white" />
+          <GitHubIcon className="text-gray-100" />
         </div>
       </nav>
     </div>
