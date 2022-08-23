@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -12,13 +13,17 @@ const Card = ({ texto, imagen, github, deploy, alt }) => {
         <div className="flex flex-row justify-between">
           <a
             href={github}
-            className="w-1/4 mt-1 mb-1 p-7 rounded-md bg-gray-800  py-2 text-indigo-100 hover:bg-gray-600 hover:shadow-md duration-75"
+            className="w-1/3 sm:w-1/4 mt-1 mb-1 p-7 rounded-md bg-gray-800  py-2 text-indigo-100 hover:bg-gray-600 hover:shadow-md duration-75"
+            target="_blank"
+            rel="noreferrer"
           >
             <GitHubIcon />
           </a>
           <a
             href={deploy}
-            className="w-1/4 mt-1 mb-1 p-7 rounded-md bg-gray-800  py-2 text-indigo-100 hover:bg-gray-600 hover:shadow-md duration-75"
+            className="w-1/3 sm:w-1/4 mt-1 mb-1 p-7 rounded-md bg-gray-800  py-2 text-indigo-100 hover:bg-gray-600 hover:shadow-md duration-75"
+            target="_blank"
+            rel="noreferrer"
           >
             <LinkIcon />
           </a>
