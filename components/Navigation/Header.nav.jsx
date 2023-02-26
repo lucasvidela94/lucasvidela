@@ -24,9 +24,7 @@ const Header = () => {
           <Link href="https://www.google.com"> </Link>
           <TextBox text="Skills" url="#skills" />
           <Link href="https://www.google.com">
-            <a target="_blank">
-              <GitHubIcon className="fill-white" />
-            </a>
+            <GitHubIcon className="fill-white" />
           </Link>
         </div>
         <div className="flex justify-between lg:hidden">
